@@ -53,3 +53,36 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+##----------Android----------
+# build
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+
+# gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+build/
+
+local.properties
+
+##----------idea----------
+*.iml
+.idea/
+*.ipr
+*.iws
+
+##----------Other----------
+# osx
+*~
+.DS_Store
+gradle.properties
+sourceSample/build.gradle
+sourceSample/app/build.gradle
+sourceSample/settings.gradle
